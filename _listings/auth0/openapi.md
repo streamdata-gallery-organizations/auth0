@@ -4,7 +4,7 @@ x-collection-name: Auth0
 x-complete: 1
 info:
   title: Auth0 API
-  description: auth0-exposes-two-apis-for-developers-to-consume-in-their-applications
+  description: auth0-exposes-two-apis-for-developers-to-consume-in-their-applications-
   version: 1.0.0
 host: login.auth0.com
 basePath: api/v2/
