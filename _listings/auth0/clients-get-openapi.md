@@ -15,38 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /blacklists/tokens:
-    get:
-      summary: Get Blacklists Tokens
-      description: Get blacklists tokens.
-      operationId: getBlacklistsTokens
-      x-api-path-slug: blackliststokens-get
-      parameters:
-      - in: query
-        name: aud
-        description: The JWTs aud claim
-      responses:
-        200:
-          description: OK
-      tags:
-      - Blacklists
-      - Tokens
-    post:
-      summary: Post Blacklists Tokens
-      description: Post blacklists tokens.
-      operationId: postBlacklistsTokens
-      x-api-path-slug: blackliststokens-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Blacklists
-      - Tokens
   /clients:
     get:
       summary: Get Clients

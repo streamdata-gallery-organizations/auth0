@@ -16,21 +16,6 @@ consumes:
 - application/json
 paths:
   /blacklists/tokens:
-    get:
-      summary: Get Blacklists Tokens
-      description: Get blacklists tokens.
-      operationId: getBlacklistsTokens
-      x-api-path-slug: blackliststokens-get
-      parameters:
-      - in: query
-        name: aud
-        description: The JWTs aud claim
-      responses:
-        200:
-          description: OK
-      tags:
-      - Blacklists
-      - Tokens
     post:
       summary: Post Blacklists Tokens
       description: Post blacklists tokens.

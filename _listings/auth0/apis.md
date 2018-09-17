@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth
 x-kinRank: "9"
 x-alexaRank: "4820"
 tags: Auth0
-created: "2018-08-29"
-modified: "2018-08-29"
+created: "2018-09-16"
+modified: "2018-09-16"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/auth0/master/_listings/auth0/apis.md
 specificationVersion: "0.14"
 apis:
